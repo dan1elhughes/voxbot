@@ -1,0 +1,7 @@
+# https://medium.com/google-cloud/scalable-video-transcoding-with-app-engine-flexible-621f6e7fdf56
+
+service: app # name of the service (necessary for non-default)
+runtime: custom # (will use Dockerfile in same directory)
+vm: true # signifies flexible environment
+vm_health_check:
+    enable_health_check: False # since no real health check
