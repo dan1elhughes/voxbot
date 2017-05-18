@@ -1,0 +1,5 @@
+# Secrets
+.env
+
+# Node libraries
+node_modules/

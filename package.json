@@ -1,0 +1,27 @@
+{
+  "name": "voxbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dan1elhughes/voxbot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dan1elhughes/voxbot/issues"
+  },
+  "homepage": "https://github.com/dan1elhughes/voxbot#readme",
+  "dependencies": {
+    "discord.js": "^11.1.0",
+    "node-opus": "^0.2.6"
+  },
+  "devDependencies": {
+    "dotenv": "^4.0.0"
+  }
+}
